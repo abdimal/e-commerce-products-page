@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.shirt img{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.shirt p{
+    width:200px;
+  
+}
+.shirt button{
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50px;
+    color: white;
+    margin-left: 15px;
+}
+.shirt button:hover{
+    background-color: black;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+}
+ h1{
+    font-size: 30PX;
+    text-align: center;
+}
+.pants img{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.pants p{
+    width:200px;
+  
+}
+.pants button{
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50px;
+    color: white;
+    margin-left: 15px;
+}
+.pants button:hover{
+    background-color: black;
+}
+.two{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dresses img{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.dresses p{
+    width:200px;
+  
+}
+.dresses button{
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50px;
+    color: white;
+    margin-left: 15px;
+}
+.dresses button:hover{
+    background-color: black;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shoes img{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.shoes p{
+    width:200px;
+  
+}
+.shoes button{
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50px;
+    color: white;
+    margin-left: 15px;
+}
+.shoes button:hover{
+    background-color: black;
+}
+.four{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accessories img{
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.accessories p{
+    width:200px;
+  
+}
+.accessories button{
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50px;
+    color: white;
+    margin-left: 15px;
+}
+.accessories button:hover{
+    background-color: black;
+}
+.five{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shirt,.dresses,.accessories,.shoes,.pants{
+    background-color: white;
+    padding: 40px;
+    margin: 15px;
+    box-shadow: 0 5px 10px rgb(8, 8, 8);
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+.shirt:hover{
+    transform: scale(1.05);
+}
+.dresses:hover{
+    transform: scale(1.05);
+}
+
+.shoes:hover{
+    transform: scale(1.05);
+}
+
+.pants:hover{
+    transform: scale(1.05);
+}
+
+.accessories:hover{
+    transform: scale(1.05);
+}
+
+
